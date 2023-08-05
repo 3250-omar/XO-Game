@@ -1,38 +1,13 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bai+Jamjuree:wght@500&family=Barlow+Semi+Condensed&family=Belanosima&family=Fredoka:wght@500&family=Hanken+Grotesk:wght@300&family=Indie+Flower&family=Inter:wght@400;700;800&family=Montserrat&family=Outfit&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@500&family=Space+Grotesk:wght@500&family=Ubuntu:wght@400;500&family=Vina+Sans&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: grid;
+place-content: center;
+background-color: #e4e4e4;
+font-family: 'Fredoka', sans-serif;
 }

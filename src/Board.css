@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bai+Jamjuree:wght@500&family=Barlow+Semi+Condensed&family=Belanosima&family=Fredoka:wght@500&family=Hanken+Grotesk:wght@300&family=Indie+Flower&family=Inter:wght@400;700;800&family=Montserrat&family=Outfit&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@500&family=Space+Grotesk:wght@500&family=Ubuntu:wght@400;500&family=Vina+Sans&display=swap');
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    gap: 1rem;
+}
+.scores{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.scores .xscores{
+    color: rgb(255,60,0);
+    border-bottom: .25rem solid rgb(255,60,0);
+    width: 50%;
+}
+.scores .oscores{
+    color: rgb(0,60,255);
+    border-bottom: .25rem solid  rgb(0,60,255);
+    width: 50%;
+    text-align: end;
+
+}
+.inactive{
+    border-bottom: .25rem solid  transparent;
+}
+.Reset{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(200,0,120);
+    color: white;
+    transform: scale(.9);
+    font-family: 'Fredoka', sans-serif;
+    transition: all .3s;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.Reset:hover{
+    transform: scale(1);
+}
+.Loading{
+    text-align: center;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    color: rgb(200,0,120);
+}
